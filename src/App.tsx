@@ -6,9 +6,10 @@ import styles from './App.module.css';
 const App: Component = () => {
   return (
     <div class={styles.App}>
-      <header class={styles.header}>
-        <h1>Hello! I'm Reckson Khiangte</h1>
-        <h2>Welcome to my site! This is a Work In Progress</h2>
+      <header class='min-h-screen flex flex-col items-center justify-center gap-8'>
+        <h1 class='text-5xl text-semibold'>Hello! I'm Reckson Khiangte</h1>
+        <h2 class='text-3xl'>Welcome to my site!</h2>
+        <p>This is a Work In Progress...</p>
       </header>
     </div>
   );
