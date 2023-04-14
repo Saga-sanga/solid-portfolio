@@ -14,7 +14,7 @@ const App: Component = () => {
       <section class='min-h-full mt-12 flex flex-col items-center justify-center gap-8'>
         <img class='mask mask-circle border-8 border-primary rounded-full' src={profile} alt="profile image" width={250} height={250}/>
         <h1 class='text-5xl font-bold'>Hello! I'm Reckson Khiangte 👋</h1>
-        <h2 class='text-3xl max-w-xl'>I'm a <b>Web Developer</b> who's currently learning and transitioning into <b>Web3</b> with all its <b>Blockchain</b> goodness.</h2>
+        <h2 class='text-3xl max-w-xl'>I'm a <b>Web Developer</b> who's currently learning and transitioning into <b>Web3</b>. Delving into the world of <b>Blockchain</b> with all it's cutting edge goodness.</h2>
         <p>🚧 This is a Work In Progress... 🚧</p>
         <article>
           {/* TODO: Add bookmarked socials style from Twitter & Socials Icons*/}
