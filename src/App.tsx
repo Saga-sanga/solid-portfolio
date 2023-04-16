@@ -1,4 +1,3 @@
-import type { Component } from "solid-js";
 import profile from "./assets/profile.jpeg";
 import { NavBar } from "./components/NavBar";
 
@@ -20,14 +19,13 @@ function App() {
           height={250}
         />
         <h1 class="text-5xl font-bold">Hello! I'm Reckson Khiangte 👋</h1>
-        <h2 class="text-3xl max-w-xl">
+        <h2 class="text-2xl max-w-xl">
           I'm a <b>Web Developer</b> who's transitioning into <b>Web3</b>;
           Currently delving into the exciting world of <b>Blockchain</b> with
           all it's cutting edge goodness.
         </h2>
         <p>🚧 This site is a Work In Progress... 🚧</p>
         <article>
-          {/* TODO: Add inline SVG and set fill color to currentcolor to change color on different states */}
           <ul class="flex gap-6">
             <li class="hover:scale-110 ease-in duration-200">
               <a href="https://github.com/Saga-sanga" target="_blank">
