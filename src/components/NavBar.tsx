@@ -16,7 +16,7 @@ export function NavBar() {
               <li><a>Project 2</a></li>
             </ul>
           </li>
-          <li><a>Blog</a></li>
+          <li><a href="https://blog.recksonk.in/">Blog</a></li>
           <li><a>Contact</a></li>
         </ul>
       </div>
