@@ -10,7 +10,7 @@ function App() {
   return (
     <div class={styles.App}>
       <NavBar />
-      <section class="min-h-full mt-12 flex flex-col items-center justify-center gap-8">
+      <section class="min-h-full mt-12 mx-4 flex flex-col items-center justify-center gap-8">
         <img
           class="mask mask-circle border-4 border-primary rounded-full"
           src={profile}
@@ -26,7 +26,7 @@ function App() {
         </h2>
         <p>🚧 This site is a Work In Progress... 🚧</p>
         <article>
-          <ul class="flex gap-6">
+          <ul class="flex gap-6 mb-12">
             <li class="hover:scale-110 ease-in duration-200">
               <a href="https://github.com/Saga-sanga" target="_blank">
                 <img src={github} alt="github" width={30} height={30} />
