@@ -1,3 +1,5 @@
+import { A } from "@solidjs/router";
+
 export function NavBar() {
   return (
     <div class="navbar bg-base-100">
@@ -48,7 +50,7 @@ export function NavBar() {
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
           <li>
-            <a>Projects</a>
+            <A href="/projects">Projects</A>
           </li>
           {/* <li tabindex="0">
             <a>
@@ -66,7 +68,7 @@ export function NavBar() {
         </ul>
       </div>
       <div class="navbar-end">
-        <a class="btn btn-primary" href="mailto:recksonk94@gmail.com">
+        <a class="btn btn-primary mr-4" href="mailto:recksonk94@gmail.com">
           Reach Out
         </a>
       </div>
