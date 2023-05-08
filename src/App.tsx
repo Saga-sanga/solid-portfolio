@@ -11,7 +11,7 @@ function App() {
   return (
     <div class={styles.App}>
       <NavBar />
-      <main class="min-h-full mt-12 mx-auto flex flex-col items-center justify-center gap-8 max-w-4xl">
+      <main class="min-h-full mt-20 mb-12 mx-auto flex flex-col items-center justify-center gap-20 max-w-4xl">
         <article class="flex flex-col-reverse items-center md:flex-row gap-10 mx-6">
           <div class="flex flex-col items-center md:items-start gap-8 max-w-md">
             <h1 class="text-5xl font-bold md:text-left">
@@ -51,7 +51,6 @@ function App() {
             height={250}
           />
         </article>
-        <hr class="w-1/2" />
         <TechList />
       </main>
     </div>
