@@ -9,10 +9,9 @@ import nextjs from "../assets/nextjs.svg";
 function TechList() {
   return (
     <div class="flex items-center flex-col gap-4">
-        <h2 class="text-xl font-bold pb-4 border-b-2 border-neutral">My Tech Stack</h2>
-      <div>
-        {/* <hr class="w-full" /> */}
-      </div>
+      <h2 class="text-xl font-bold pb-4 border-b-2 border-neutral">
+        My Tech Stack
+      </h2>
       <ul class="flex flex-wrap justify-center gap-4">
         <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
           <img width={32} height={32} src={html5} alt="HTML logo" />
