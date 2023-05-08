@@ -11,10 +11,10 @@ function Projects() {
           <img class="object-cover" src={apologiaImage} alt="Album" />
         </figure>
         <div class="card-body">
-          <h2 class="card-title">Question and Answer Site</h2>
+          <h2 class="card-title text-2xl font-bold">Question and Answer Site</h2>
           <p>
-            A site using Strapi CMS on the backend to update and populate the
-            content. Built using NextJS and using Incremental Site Regeneration
+            A site using <b>Strapi CMS</b> on the backend to update and populate the
+            content. Built using <b>NextJS</b> and using Incremental Site Regeneration
             to update the pages on the fly.
           </p>
           <div class="card-actions justify-end">
