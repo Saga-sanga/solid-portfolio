@@ -8,7 +8,7 @@ function Projects() {
     <Layout>
       <div class="card mx-4 bg-base-100 shadow-xl">
         <figure>
-          <img src={apologiaImage} alt="Album" />
+          <img class="object-cover" src={apologiaImage} alt="Album" />
         </figure>
         <div class="card-body">
           <h2 class="card-title">Question and Answer Site</h2>
@@ -20,6 +20,7 @@ function Projects() {
           <div class="card-actions justify-end">
             <a
               href="https://github.com/Saga-sanga/mizo-apologia"
+              target="_blank"
               class="flex gap-2 btn btn-accent"
             >
               <img src={github} width={20} height={20} alt="github" />
@@ -27,6 +28,7 @@ function Projects() {
             </a>
             <a
               href="https://mizoapologia.org"
+              target="_blank"
               class="flex gap-2 btn btn-primary"
             >
               <img src={serverSolid} width={20} height={20} alt="server" />

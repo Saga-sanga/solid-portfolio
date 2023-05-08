@@ -9,7 +9,7 @@ import nextjs from "../assets/nextjs.svg";
 function TechList() {
   return (
     <div class="flex items-center flex-col gap-8">
-      <h2 class="text-xl font-bold pb-4 border-b-2 border-neutral">
+      <h2 class="text-xl font-bold pb-4 border-b-2 border-base-content">
         My Tech Stack
       </h2>
       <ul class="flex flex-wrap justify-center gap-4">
