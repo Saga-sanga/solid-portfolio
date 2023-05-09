@@ -4,11 +4,10 @@ import javascript from "../assets/javascript.svg";
 import typescript from "../assets/typescript.svg";
 import reactLogo from "../assets/react.svg";
 import tailwindCss from "../assets/tailwind-css.svg";
-import nextjs from "../assets/nextjs.svg";
 
 function TechList() {
   return (
-    <div class="flex items-center flex-col gap-8">
+    <div class="flex items-center flex-col gap-8 mx-4">
       <h2 class="text-xl font-bold pb-4 border-b-2 border-base-content">
         My Tech Stack
       </h2>

@@ -12,10 +12,10 @@ function App() {
     <Layout>
       <article class="flex flex-col-reverse items-center md:flex-row gap-10 mx-6 mt-6">
         <div class="flex flex-col items-center md:items-start gap-8 max-w-md">
-          <h1 class="text-5xl font-bold md:text-left">
+          <h1 class="text-5xl font-bold text-center md:text-left">
             Hello! I'm Reckson Khiangte 👋
           </h1>
-          <h2 class="text-2xl max-w-xl">
+          <h2 class="text-2xl max-w-xl text-center md:text-left">
             I'm a <b>Front-end Developer</b> from India 🇮🇳
           </h2>
           <article>
