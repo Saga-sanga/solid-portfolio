@@ -3,31 +3,32 @@ import css3 from "../assets/css-3.svg";
 import javascript from "../assets/javascript.svg";
 import typescript from "../assets/typescript.svg";
 import reactLogo from "../assets/react.svg";
+import solidLogo from "../assets/solid-logo.svg"
 import tailwindCss from "../assets/tailwind-css.svg";
 
 function TechList() {
   return (
-    <div class="flex items-center flex-col gap-8 mx-4">
-      <h2 class="text-xl font-bold pb-4 border-b-2 border-base-content">
+    <div class="flex items-center flex-col gap-6 mx-4">
+      <h2 class="text-xl font-bold pb-3 border-b-2 border-base-content">
         My Tech Stack
       </h2>
       <ul class="flex flex-wrap justify-center gap-4">
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
           <img width={32} height={32} src={html5} alt="HTML logo" />
         </li>
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
           <img width={32} height={32} src={css3} alt="CSS logo" />
         </li>
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
           <img width={32} height={32} src={javascript} alt="Javascript logo" />
         </li>
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
           <img width={32} height={32} src={typescript} alt="Typescript logo" />
         </li>
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
           <img width={32} height={32} src={reactLogo} alt="React logo" />
         </li>
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
           {/* <img width={32} height={32} src={nextjs} class="fill-base-content" alt="NextJs logo" /> */}
           <svg
             width="32px"
@@ -46,7 +47,15 @@ function TechList() {
             </g>
           </svg>
         </li>
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow">
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
+          <img
+            width={32}
+            height={32}
+            src={solidLogo}
+            alt="SolidJS logo"
+          />
+        </li>
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary">
           <img
             width={32}
             height={32}
