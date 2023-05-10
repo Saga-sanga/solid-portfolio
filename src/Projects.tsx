@@ -6,7 +6,7 @@ import serverSolid from "./assets/server-solid.svg";
 function Projects() {
   return (
     <Layout>
-      <div class="card mx-4 border-primary bg-base-100 shadow-xl">
+      <div class="card mx-4 border-primary bg-base-100 shadow-xl shadow-secondary">
         <figure>
           <img class="object-cover" src={apologiaImage} alt="Album" />
         </figure>
@@ -21,7 +21,7 @@ function Projects() {
             <a
               href="https://github.com/Saga-sanga/mizo-apologia"
               target="_blank"
-              class="flex gap-2 btn btn-accent"
+              class="flex gap-2 btn btn-secondary"
             >
               <img src={github} width={20} height={20} alt="github" />
               Github
