@@ -8,7 +8,7 @@ function Projects() {
     <Layout>
       <div class="card mx-4 border-primary bg-base-100 shadow-xl shadow-secondary">
         <figure>
-          <img class="object-cover" src={apologiaImage} alt="Album" />
+          <img class="object-cover" src={apologiaImage} alt="Album" width={864} height={496}/>
         </figure>
         <div class="card-body">
           <h2 class="card-title text-2xl font-bold">Question and Answer Site</h2>
