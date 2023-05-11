@@ -55,7 +55,7 @@ function App() {
           </article>
         </div>
         <img
-          class="mask mask-circle border-4 border-primary rounded-full"
+          class="border-4 border-primary rounded-full hover:border-secondary hover:scale-110 ease-in duration-500"
           src={profile}
           alt="profile image"
           width={250}
