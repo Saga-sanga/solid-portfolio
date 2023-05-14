@@ -15,8 +15,8 @@ function App() {
           <h1 class="text-5xl font-bold text-center md:text-left">
             Hello! I'm Reckson Khiangte 👋
           </h1>
-          <h2 class="text-2xl max-w-xl text-center md:text-left">
-            I'm a <b>Front-end Developer</b> from India 🇮🇳
+          <h2 class="text-lg max-w-xl text-center md:text-left">
+            I'm a <b>Front-end Developer</b> with a passion for creating functional and user-friendly web applications. I'm always looking for new challenges and new opportunities to help me achieve my goals.
           </h2>
           <article>
             <ul class="flex gap-4">
