@@ -6,7 +6,7 @@ import serverSolid from "./assets/server-solid.svg";
 function Projects() {
   return (
     <Layout>
-      <div class="card mx-4 border-primary bg-base-100 shadow-xl shadow-secondary">
+      <div class="card mx-4 border-primary bg-base-100 shadow-xl shadow-secondary hover:shadow-primary ease-in duration-300 delay-0">
         <figure>
           <img class="object-cover" src={apologiaImage} alt="Album" width={864} height={496}/>
         </figure>

@@ -38,7 +38,7 @@ export function NavBar() {
         </a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal px-1">
+        <ul class="menu menu-horizontal px-1 gap-4">
           <li>
             <A href="/projects">Projects</A>
           </li>
