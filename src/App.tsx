@@ -1,4 +1,4 @@
-import profile from "./assets/profile.jpeg";
+import profile from "./assets/profile_ai.png";
 import Layout from "./components/Layout";
 
 import resume from "./assets/documents/Reckson_Resume.pdf";
