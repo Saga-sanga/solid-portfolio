@@ -58,7 +58,7 @@ function Projects() {
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title text-2xl font-bold">Node Tutorial Blog</h2>
+          <h2 class="card-title text-2xl font-bold">Node Blog</h2>
           <p>
             A small blog built using <b>Node.js</b>, <b>Express</b> and the EJS
             view engine. This project was created as an exercise to learn
