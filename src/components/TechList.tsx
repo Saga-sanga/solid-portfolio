@@ -5,6 +5,7 @@ import typescript from "../assets/typescript.svg";
 import reactLogo from "../assets/react.svg";
 import solidLogo from "../assets/solid-logo.svg"
 import tailwindCss from "../assets/tailwind-css.svg";
+import nodeLogo from "../assets/nodejs-logo.svg";
 
 function TechList() {
   return (
@@ -61,6 +62,14 @@ function TechList() {
             height={32}
             src={tailwindCss}
             alt="Tailwind CSS logo"
+          />
+        </li>
+        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary hover:shadow-primary ease-in duration-300 delay-0">
+          <img
+            width={32}
+            height={32}
+            src={nodeLogo}
+            alt="NodeJS logo"
           />
         </li>
       </ul>

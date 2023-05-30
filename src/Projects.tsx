@@ -26,7 +26,7 @@ function Projects() {
             the content. Built using <b>NextJS</b> and using Incremental Site
             Regeneration to update the pages on the fly.
           </p>
-          <div class="card-actions justify-end">
+          <div class="card-actions mt-4 justify-end">
             <a
               href="https://github.com/Saga-sanga/mizo-apologia"
               target="_blank"
@@ -65,7 +65,7 @@ function Projects() {
             Node.js and various backend technologies such as <b>JWT</b> for
             authentication and authorization.
           </p>
-          <div class="card-actions justify-end">
+          <div class="card-actions mt-4 justify-end">
             <a
               href="https://github.com/Saga-sanga/node-blog"
               target="_blank"
