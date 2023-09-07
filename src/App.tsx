@@ -63,6 +63,7 @@ function App() {
         />
       </article>
       <TechList />
+      <a href="https://www.buymeacoffee.com/recksonk94k" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 3rem !important;width: 176px !important;" /></a>
     </Layout>
   );
 }
