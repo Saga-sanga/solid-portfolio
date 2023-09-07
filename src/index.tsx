@@ -1,5 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
+import { inject } from "@vercel/analytics";
 
 import "./index.css";
 import App from "./App";
@@ -8,6 +9,7 @@ import Projects from "./Projects";
 import { Router, Routes, Route } from "@solidjs/router";
 
 const root = document.getElementById("root");
+inject();
 
 if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   throw new Error(
@@ -23,4 +25,6 @@ render(
         <Route path="/projects" component={Projects} />
       </Routes>
     </Router>
-  ), root!);
+  ),
+  root!
+);
