@@ -1,7 +1,7 @@
 import profile from "./assets/profile_ai.png";
 import Layout from "./components/Layout";
 
-import resume from "./assets/documents/FrontEnd_Developer_Resume.pdf";
+import resume from "./assets/documents/Developer_Resume.pdf";
 import github from "./assets/github.svg";
 import linkedin from "./assets/linkedin_logo_icon.svg";
 import twitter from "./assets/twitter_logo_icon.svg";
