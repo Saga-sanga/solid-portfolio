@@ -16,7 +16,7 @@ function App() {
             Hello! I'm Reckson Khiangte 👋
           </h1>
           <h2 class="text-lg max-w-xl text-center md:text-left">
-            I'm a <b>Web Developer</b> with a passion for creating functional and user-friendly web applications. I'm always looking for new challenges and new opportunities to help me achieve my goals.
+            I'm a <b>Web Developer</b> with a passion for creating functional and user-friendly web applications. I would impore you to look around and see if anything is to your tastes.
           </h2>
           <article>
             <ul class="flex gap-4">
