@@ -1,5 +1,5 @@
 import Layout from "./components/Layout";
-import apologiaImage from "./assets/projects/Apologia.webp";
+import apologiaImage from "./assets/projects/apologia.webp";
 import nodeBlogImage from "./assets/projects/Node-blog.webp";
 import github from "./assets/github-btn.svg";
 import serverSolid from "./assets/server-solid.svg";
@@ -18,9 +18,7 @@ function Projects() {
           />
         </figure>
         <div class="card-body">
-          <h2 class="card-title text-2xl font-bold">
-            Question and Answer Site
-          </h2>
+          <h2 class="card-title text-2xl font-bold">Mizo Apologia</h2>
           <p>
             A site using <b>Strapi CMS</b> on the backend to update and populate
             the content. Built using <b>NextJS</b> and using Incremental Site
@@ -28,7 +26,7 @@ function Projects() {
           </p>
           <div class="card-actions mt-4 justify-end">
             <a
-              href="https://github.com/Saga-sanga/mizo-apologia"
+              href="https://github.com/Saga-sanga/t3-apologia"
               target="_blank"
               class="flex gap-2 btn btn-secondary"
             >

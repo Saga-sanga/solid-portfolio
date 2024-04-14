@@ -14,12 +14,12 @@ function TechList() {
         My Tech Stack
       </h2>
       <ul class="flex flex-wrap justify-center gap-4">
-        <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary hover:shadow-primary ease-in duration-300 delay-0">
+        {/* <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary hover:shadow-primary ease-in duration-300 delay-0">
           <img width={32} height={32} src={html5} alt="HTML logo" />
         </li>
         <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary hover:shadow-primary ease-in duration-300 delay-0">
           <img width={32} height={32} src={css3} alt="CSS logo" />
-        </li>
+        </li> */}
         <li class="flex items-center justify-center rounded-full h-16 w-16 shadow shadow-secondary hover:shadow-primary ease-in duration-300 delay-0">
           <img width={32} height={32} src={javascript} alt="Javascript logo" />
         </li>
