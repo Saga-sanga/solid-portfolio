@@ -12,6 +12,7 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "autoprefixer": "^10.4.14",
+    "daisyui": "^4.10.1",
     "eslint": "^8.38.0",
     "eslint-config-standard-with-typescript": "^34.0.1",
     "eslint-plugin-import": "^2.27.5",
@@ -26,7 +27,7 @@
   "dependencies": {
     "@solidjs/router": "^0.8.2",
     "@vercel/analytics": "^1.0.2",
-    "daisyui": "^2.51.5",
-    "solid-js": "^1.6.10"
+    "solid-js": "^1.6.10",
+    "theme-change": "^2.5.0"
   }
 }

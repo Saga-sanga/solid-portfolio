@@ -8,6 +8,12 @@ import Projects from "./Projects";
 
 import { Router, Routes, Route } from "@solidjs/router";
 
+import { onMount } from "solid-js";
+import { themeChange } from "theme-change";
+onMount(async () => {
+  themeChange();
+});
+
 const root = document.getElementById("root");
 inject();
 
