@@ -1,5 +1,5 @@
 import Layout from "./components/Layout";
-import apologiaImage from "./assets/projects/apologia.webp";
+import apologiaImage from "./assets/projects/apologia-og.webp";
 import nodeBlogImage from "./assets/projects/Node-blog.webp";
 import github from "./assets/github-btn.svg";
 import serverSolid from "./assets/server-solid.svg";
