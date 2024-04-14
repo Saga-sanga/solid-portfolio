@@ -20,9 +20,8 @@ function Projects() {
         <div class="card-body">
           <h2 class="card-title text-2xl font-bold">Mizo Apologia</h2>
           <p>
-            A site using <b>Strapi CMS</b> on the backend to update and populate
-            the content. Built using <b>NextJS</b> and using Incremental Site
-            Regeneration to update the pages on the fly.
+            A question and answer site inspired by the likes of Quora with role based user authentication.
+            Built using <b>NextJS</b>, <b>TRPC</b> and <b>TailwindCSS</b> 
           </p>
           <div class="card-actions mt-4 justify-end">
             <a
