@@ -48,7 +48,6 @@ export function NavBar() {
         </ul>
       </div>
       <div class="navbar-end">
-        
         <a class="btn btn-primary mr-4" href="mailto:recksonk94@gmail.com">
           Reach Out
         </a>

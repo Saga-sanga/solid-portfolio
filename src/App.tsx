@@ -16,7 +16,8 @@ function App() {
             Hello! I'm Reckson Khiangte 👋
           </h1>
           <h2 class="text-lg max-w-xl text-center md:text-left">
-            I'm a <b>Web Developer</b> with a passion for creating functional and user-friendly web applications. I would impore you to look around and see if anything is to your tastes.
+            I'm a <b>Web Developer</b> with a passion for creating functional
+            and user-friendly web applications.
           </h2>
           <article>
             <ul class="flex gap-4">
@@ -63,7 +64,13 @@ function App() {
         />
       </article>
       <TechList />
-      <a href="https://www.buymeacoffee.com/recksonk94k" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 3rem !important;width: 176px !important;" /></a>
+      <a href="https://www.buymeacoffee.com/recksonk94k" target="_blank">
+        <img
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png"
+          alt="Buy Me A Coffee"
+          style="height: 3rem !important;width: 176px !important;"
+        />
+      </a>
     </Layout>
   );
 }
