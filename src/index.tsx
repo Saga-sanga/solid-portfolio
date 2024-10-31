@@ -1,6 +1,5 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
-import { inject } from "@vercel/analytics";
 
 import "./index.css";
 import App from "./App";
@@ -15,11 +14,10 @@ onMount(async () => {
 });
 
 const root = document.getElementById("root");
-inject();
 
 if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   throw new Error(
-    "Root element not found. Did you forget to add it to your index.html? Or maybe the id attribute got mispelled?"
+    "Root element not found. Did you forget to add it to your index.html? Or maybe the id attribute got mispelled?",
   );
 }
 
@@ -32,5 +30,5 @@ render(
       </Routes>
     </Router>
   ),
-  root!
+  root!,
 );

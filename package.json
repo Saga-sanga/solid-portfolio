@@ -25,8 +25,8 @@
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
+    "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.8.2",
-    "@vercel/analytics": "^1.0.2",
     "solid-js": "^1.6.10",
     "theme-change": "^2.5.0"
   }
